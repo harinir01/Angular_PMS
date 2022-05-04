@@ -1,0 +1,90 @@
+<script src="https://kit.fontawesome.com/968b7ca54c.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+<div class="container d-flex justify-content-center table-box">
+    <div class="main">
+        <!-- code type here -->
+        <div>
+            <div class="search">
+                <input type="text" name="search" placeholder="search by name, project">
+                <label for="search"><i class="fas fa-search"></i></label>
+            </div>
+            <div class="filters">
+                <div class="filter py-3 d-flex align-items-center justify-content-between">
+                     Designation:<select class="h-100 py-2" name="Designation">
+                        <option value="select Designation">Select Designation</option>
+                        <option value="CEO">CEO</option>
+                        <option value="PM">PM</option>
+                        <option value="TL">TL</option>
+                        <option value="SSE">SSE</option>
+                        <option value="SE">SE</option>
+                    </select>
+                </div>
+                
+                <div class="filter py-3 d-flex align-items-center justify-content-between">
+                    Domain:<select class="h-100 py-2" name="Domain">
+                        <option value="select Domain">Select Domain</option>
+                        <option value="IT">IT</option>
+                        <option value="medium">Medium</option>
+                        <option value="large">Large</option>
+                    </select>
+                
+                </div>
+                <div class="filter py-3 d-flex align-items-center justify-content-between">
+                    Technology:<select class="h-100 py-2" name="Technology">
+                        <option value="select Technology">Select Technology</option>
+                        <option value="NET">NET</option>
+                        <option value="Java">Java</option>
+                        <option value="Lamp">Lamp</option>
+                    </select>
+                
+                </div>
+                
+                <div class="filter py-3 d-flex align-items-center justify-content-between">
+                     College:<select class="h-100 py-2" name="College">
+                        <br>
+                        <option value="select college">Select College</option>
+                        <option value="Krishna">Krishna</option>
+                        <option value="Bannari">Bannari</option>
+                        <option value="Kumaraguru">Kumaraguru</option>
+                    </select>
+                
+                </div>
+                
+                <div class="filter py-3 d-flex align-items-center justify-content-between">
+                    Experience:
+                    <div class="">
+                         <select class="h-50 py-2 " name="Min">
+                            <option value="Min">Min</option>
+                            <option value="small">Small</option>
+                            <option value="medium">Medium</option>
+                            <option value="large">Large</option>
+                        </select>
+                        <select class="h-50 py-2 mr-2" name="Max">
+                            <option value="Max">Max</option>
+                            <option value="small">Small</option>
+                            <option value="medium">Medium</option>
+                            <option value="large">Large</option>
+                        </select>
+                    
+                    </div>
+                </div>
+                <div class="filter py-3 d-flex align-items-center justify-content-between">
+                     Profile Status:<select class="h-100 py-2" name="Profile Status">
+                        <option value="select Profile Status">Select Status</option>
+                        <option value="Approved">Approved</option>
+                        <option value="Rejected">Rejected</option>
+                        <option value="Waiting for Approval">Waiting</option>
+                    </select>
+                    <!-- <button type="button" class="btn btn-info">Info</button> -->
+                
+                </div>
+            </div>
+                <div>
+                    <button id="button7" type="button" class="btn btn-primary">Apply</button>
+                </div>
+        </div>
+        <div  class="home">
+            <app-home></app-home>
+        </div>
+    </div>
+</div>
